@@ -100,3 +100,81 @@ header nav a.nav-btn:hover {
   background: rgba(0,0,0, .16);
   color: #000
 }
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 650px;
+  background-image: linear-gradient(-19deg, var(--primary-color) 0%, rgba(0,0,0,.30) 100%);
+}
+
+.banner .center {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner img {
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.banner-text {
+  color: #fff;
+  margin-right: 8rem;
+}
+
+.banner-text h1 {
+  font-weight: bold;
+  font-size: 5.4rem;
+  line-height: 1.1;
+}
+
+.banner-text p {
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  opacity: 0.8;
+}
+
+.banner-links {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.banner-links a {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.banner-links a:hover {
+  text-decoration: none;
+}
+
+.banner-links a.banner-btn {
+  margin-right: 2.2rem;
+  background-color: #333;
+  padding: .5rem 1.5rem;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform .2s, box-shadow .2s;
+  text-shadow: 0px 1px 1px rgba(0,0,0, .16);
+}
+
+.banner-links a.banner-btn i {
+  margin-left: .5rem;
+}
+
+.banner-links a.banner-btn:hover {
+  box-shadow: 0px 2px 8px rgba(0,0,0, .1);
+  transform: translateY(-3px);
+}
+
+.banner-links a.banner-btn:active {
+  box-shadow: 0 1px 3px rgba(0,0,0, .13);
+  transform: translateX(0);
+}
