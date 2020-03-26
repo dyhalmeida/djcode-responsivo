@@ -1,0 +1,33 @@
+/* Base CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 16px */
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: 'Titillium Web', sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::selection {
+  background-color: #7159c1;
+  color: #fff
+}
+
+.center {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
