@@ -539,3 +539,44 @@ footer p {
     margin-bottom: 1rem;
   }
 }
+
+/* About */
+@media (max-width: 1240px) {
+  .about .center img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about .center {
+    align-items: flex-start;
+  }
+
+  .about-text ul {
+    flex-direction: column;
+  }
+
+  .about-text li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  
+  .about {
+    padding: 4rem 0;
+  }
+
+  .about .center img {
+    display: none;
+  }
+ 
+
+  .about-text {
+    margin-left: 0;
+  }
+
+  .about-text h1 {
+    font-size: 2.8rem;
+  }
+}
