@@ -178,3 +178,57 @@ header nav a.nav-btn:hover {
   box-shadow: 0 1px 3px rgba(0,0,0, .13);
   transform: translateX(0);
 }
+
+/* About */
+.about {
+  padding: 8rem 0;
+}
+
+.about .center {
+  display: flex;
+  align-items: center;
+}
+
+.about .center img {
+  display: block;
+  border-radius: 4px;
+}
+
+.about-text {
+  margin-left: 4rem;
+}
+
+.about-text h1 {
+  color: #7159c1;
+  line-height: 1.2;
+  font-size: 3.4rem;
+  font-weight: 400;
+}
+
+.about-text p {
+  color: #777;
+  margin: .5rem 0 1.5rem 0;
+  font-size: 1.7rem;
+}
+
+.about-text ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 -1.5rem;
+}
+
+.about-text li {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.about-text i {
+  color: #0fcac6;
+  font-size: 12px;
+  margin-right: 8px;
+}
