@@ -605,5 +605,51 @@ footer p {
   .tech-wrapper {
     width: 100%;
   }
+
+}
+
+/* Blog */
+@media (max-width: 1240px) {
   
+  .blog {
+    padding: 5rem 0 7rem;
+  }
+
+  .blog-post {
+    width: calc(50% - 2rem);
+  }
+
+  .post-content .avatar {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .blog .center {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-post {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .blog-post + .blog-post {
+    margin-top: 4rem;
+  }
+
+  .post-content {
+    flex-direction: column;
+  }
+
+  .post-text {
+    margin-top: 1.5rem;
+  }
+
+  .post-content .avatar {
+    align-self: center;
+  }
 }
