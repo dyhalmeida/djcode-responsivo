@@ -232,3 +232,95 @@ header nav a.nav-btn:hover {
   font-size: 12px;
   margin-right: 8px;
 }
+
+/* Tecnologias */
+.tech {
+  background-color: #eee;
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.tech .center h2 {
+  color: #555;
+  font-weight: 300;
+  font-size: 4rem;
+}
+
+.tech .center h3 {
+  color: #777;
+  font-weight: 400;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4.5rem -1rem 0 -1rem;
+}
+
+.tech-wrapper {
+  width: 25%;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.tech-item {
+  display: block;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.tech-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+}
+
+.tech-item h4 {
+  display: flex;
+  align-items: center;
+  color: #7159c1;
+  padding: 1.5rem 1.5rem .8rem 1.5rem;
+}
+
+.tech-item h4 img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.tech-item p {
+  text-align: left;
+  color: #888;
+  padding: 0 1.5rem;
+}
+
+.tech-info {
+  border-top: 1px solid #ddd;
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.tech-info div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.tech-info div + div {
+  border-left: 1px solid #ddd;
+}
+
+.tech-info div i {
+  font-size: 14px;
+  color: #0fcac6;
+}
+
+.tech-info div span {
+  color: #666;
+  font-size: 1.5rem;
+  margin-top: .3rem;
+}
