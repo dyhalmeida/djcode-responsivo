@@ -497,3 +497,45 @@ footer p {
     display: none;
   }
 }
+
+/* Banner */
+@media (max-width: 1180px) {
+  .banner {
+    height: 450px;
+  }
+  .banner img {
+    height: 180px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .banner {
+    height: auto;
+    padding: 4rem 0;
+  }
+  .banner .center {
+    flex-direction: column;
+  }
+  .banner-text {
+    margin-right: 0;
+  }
+  .banner-text h1 {
+    font-size: 3rem;
+  }
+  .banner img {
+    order: -1;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-links {
+    flex-direction: column;
+  }
+  .banner-links a.banner-btn {
+    margin-bottom: 1rem;
+  }
+}
