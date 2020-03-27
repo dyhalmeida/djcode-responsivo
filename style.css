@@ -420,3 +420,21 @@ header nav a.nav-btn:hover {
 .blog-post:hover .post-footer span:first-child i {
   transform: translateX(5px);
 }
+
+/* Footer */
+footer {
+  background: #7159c1;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+footer img {
+  opacity: .25;
+  width: 5rem;
+}
+
+footer p {
+  opacity: .55;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
